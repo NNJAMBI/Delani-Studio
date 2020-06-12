@@ -9,3 +9,7 @@ header {
 legend {
     text-align: center;
 }
+
+fieldset p {
+    text-align: center;
+}
