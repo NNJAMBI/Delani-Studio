@@ -33,8 +33,9 @@ h2 {
 .container img {
     display: inline-block;
     margin: auto;
-    margin-left: 18px;
-    margin-right: 8px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
     margin-bottom: 20px;
 }
 
@@ -48,6 +49,7 @@ h3 {
     padding: 15%;
     color: white;
     font-size: 25px;
+    text-align: top;
 }
 
 .social img {
