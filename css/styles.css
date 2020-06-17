@@ -17,6 +17,7 @@ fieldset p {
 p1 {
     text-align: center;
 }
+
 .services {
     background-image: url('../assets/backgrounds/s_image.jpg');
     background-size: 100% 100%;
@@ -30,7 +31,7 @@ h2 {
     text-align: center;
 }
 
-.container img {
+.us img {
     display: inline-block;
     margin: auto;
     padding-left: 10px;
@@ -43,13 +44,21 @@ h3 {
     text-align: center;
 }
 
+
+#contact{
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    padding: 20px 5px;
+    color: white;
+  }
+
 .contact {
     background-image: url('../assets/backgrounds/c_image.jpg');
     background-size: 100% 100%;
-    padding: 15%;
+    /* padding: 15%; */
+    padding: 20px 5px;
     color: white;
     font-size: 25px;
-    text-align: top;
+    text-align: center;
 }
 
 .social img {
@@ -58,9 +67,109 @@ h3 {
     font-size: 20px;
     width: 50px;
     margin: 5px 2px;
-    display:inline-block;
+    display: inline-block;
+    margin-top: 70px;
+    justify-content: center;
+    align-content: unset;
 }
 
 h4 {
     text-align: center;
 }
+/* overlay section */
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8 {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#overlay, #overlay1, #overlay2, #overlay3, #overlay4, #overlay5, #overlay6, #overlay7 {
+    color: black;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    font-family: Arial, Verdana;
+    color: #000;
+    font-size: 150%;
+    font-weight: 900;
+    text-shadow: 1px 1px #fff;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* images */
+.row-cols-5 #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8 {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 30%;
+    margin-top: 5%;
+    position: relative;
+    display:inline-block;
+    width: 12.5%;
+    margin-bottom: 0.5em;
+}
+
+.image {
+    display: table-row-group;
+    flex-wrap:wrap
+    width: 12.5%;
+    margin-bottom: 0.5em;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 30%;
+    margin-top: 5%;
+}
+
+/* Contact section */
+.message{
+    padding: 3px 15px;
+    margin: 7px 2px;
+    width: 700px;
+    max-width: 89%;
+    color: lime;
+    position: relative;
+  }
+  form{
+    width: 700px;
+    max-width: 90%;
+   
+  }
+  ::placeholder{
+    color: rgb(204, 204, 204);
+  }
+  form input{
+    width:49%;
+  }
+  form input, form textarea{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.2s ease;
+    padding: 7px;
+  }
+  form textarea{
+    margin-top: 20px;
+    width: 98.8%;
+  }
+  form input:focus, textarea:focus{
+    background: rgba(0, 0, 0, 0.733);
+    border: transparent;
+    transform: scale(1.03);
+  
+  }
+  form input[type=submit]{
+    background: rgba(95, 81, 177, 0.699);
+    font-weight: 200;
+    font-size: 1.0em;
+    padding: 0px;
+    outline: thick;
+  }
+  form input[type=submit]:hover{
+    border-radius: 30px;
+    background: rgb(119, 0, 255);
+    outline: none;
+  }
+
+ 
