@@ -103,6 +103,7 @@ h4 {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+    border:1px solid honeydew;background-color: ivory;
 }
 /* image
 #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8 {
