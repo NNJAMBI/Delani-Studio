@@ -81,8 +81,8 @@ h3 {
 h4 {
     text-align: center;
 }
-/* overlay section */
-#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8 {
+/* overlay section */ */
+ #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8 {
     position: relative;
     left: 0;
     top: 0;
@@ -104,28 +104,28 @@ h4 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/* images */
-.row-cols-5 #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8 {
+/* image
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8 {
     margin-right: 5%;
     margin-left: 5%;
-    margin-bottom: 30%;
+    margin-bottom: 5%;
     margin-top: 5%;
     position: relative;
     display:inline-block;
-    width: 12.5%;
+    width: 25%;
     margin-bottom: 0.5em;
-}
-
+} */
+/* 
 .image {
     display: table-row-group;
-    flex-wrap:wrap
-    width: 12.5%;
+    flex-wrap:wrap;
+    width: 25%;
     margin-bottom: 0.5em;
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 30%;
     margin-top: 5%;
-}
+} */
 
 /* Contact section */
 .message{
