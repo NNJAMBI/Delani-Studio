@@ -147,6 +147,7 @@ h4 {
 form {
     width: 700px;
     max-width: 90%;
+    display: inline-block;
 }
 
 ::placeholder {
