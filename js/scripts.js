@@ -195,7 +195,7 @@ $("#details").submit(function(event){
       $(".message").removeClass("error");
       $(".message").addClass("success");
     }else{
-      $(".message").text("Error!!! Please fill in all the details correctly");
+      $(".message").text("Error!!! Please enter all the details correctly");
       $(".message").addClass("error");
     }
     event.preventDefault();
