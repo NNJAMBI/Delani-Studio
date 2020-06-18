@@ -7,7 +7,7 @@ header {
 }
 
 #mouse-click {
-    padding-top : 22px;
+    padding-top: 22px;
     margin-top: 10%;
     padding-bottom: 30px;
     animation: bounce 2s infinite;
@@ -15,15 +15,16 @@ header {
 
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
     40% {
-      transform: translateY(-55px);
+        transform: translateY(-55px);
     }
     60% {
-      transform: translateY(-45px);
+        transform: translateY(-45px);
     }
-  }
+}
+
 legend {
     text-align: center;
 }
@@ -210,31 +211,33 @@ form input[type=submit]:hover {
 }
 
 /* @media queries */
-@media only screen and (max-width: 600px){
-    header div{
-      padding-top: 30vw;
-    }  
-    #whatWeDo div{
-      width: 100%;
-      min-height: 130px;
+
+@media only screen and (max-width: 600px) {
+    header div {
+        padding-top: 30vw;
     }
-    #portfolio>div{
-      width: 49%;
+    #whatWeDo div {
+        width: 100%;
+        min-height: 130px;
     }
-    #portfolio>div>div>p{
-      font-size: 1.4em; 
+    #portfolio>div {
+        width: 49%;
     }
-    form input, form textarea{
-      width: 100%;
-      margin: 5px 0;
+    #portfolio>div>div>p {
+        font-size: 1.4em;
     }
-    form input[type=submit]{
-      width: auto;
-      padding: 0 15%;
+    form input, form textarea {
+        width: 100%;
+        margin: 5px 0;
     }
-  }
-  /* end @media queries */
-  
+    form input[type=submit] {
+        width: auto;
+        padding: 0 15%;
+    }
+}
+
+/* end @media queries */
+
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 
 #mc_embed_signup {
