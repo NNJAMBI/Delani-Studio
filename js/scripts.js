@@ -4,6 +4,7 @@ $(document).ready(function () {
     });
 });
 
+
 $(document).ready(function () {
     $("#development").click(function () {
         $("#development-text").slideToggle("slow");
@@ -19,11 +20,11 @@ $(document).ready(function () {
 $('.main').click(function () {
     $(this).children('.hide').slideToggle(1200);
     $(this).children('.show').toggle(1500);
-  });
+});
 
 
 $(document).ready(function () {
-    $('#overlay', ).hide();
+    $('#overlay',).hide();
     $('#img1').animate({
         opacity: 1
 
@@ -45,7 +46,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $('#overlay1', ).hide();
+    $('#overlay1',).hide();
     $('#img2').animate({
         opacity: 1
 
@@ -66,7 +67,7 @@ $(document).ready(function () {
 
 });
 $(document).ready(function () {
-    $('#overlay2', ).hide();
+    $('#overlay2',).hide();
     $('#img3').animate({
         opacity: 1
 
@@ -87,7 +88,7 @@ $(document).ready(function () {
 
 });
 $(document).ready(function () {
-    $('#overlay3', ).hide();
+    $('#overlay3',).hide();
     $('#img4').animate({
         opacity: 1
 
@@ -108,7 +109,7 @@ $(document).ready(function () {
 
 });
 $(document).ready(function () {
-    $('#overlay4', ).hide();
+    $('#overlay4',).hide();
     $('#img5').animate({
         opacity: 1
 
@@ -129,7 +130,7 @@ $(document).ready(function () {
 
 });
 $(document).ready(function () {
-    $('#overlay5', ).hide();
+    $('#overlay5',).hide();
     $('#img6').animate({
         opacity: 1
 
@@ -150,7 +151,7 @@ $(document).ready(function () {
 
 });
 $(document).ready(function () {
-    $('#overlay6', ).hide();
+    $('#overlay6',).hide();
     $('#img7').animate({
         opacity: 1
 
@@ -171,7 +172,7 @@ $(document).ready(function () {
 
 });
 $(document).ready(function () {
-    $('#overlay7', ).hide();
+    $('#overlay7',).hide();
     $('#img8').animate({
         opacity: 1
 
@@ -192,19 +193,19 @@ $(document).ready(function () {
 
 });
 $(document).ready(function () {
-$("#details").submit(function(event){
-    var first_1 = $("input:first").val();
-    var second_2 = $("input#mail").val();
-    if(first_1 && second_2 != ""  ){
-      $(".message").text("Thank you " + first_1 + " for reaching out to us." + " " + "Your message has been received.");
-      $(".message").removeClass("error");
-      $(".message").addClass("success");
-    }else{
-      $(".message").text("Error!!! Please enter all the details correctly");
-      $(".message").addClass("error");
-    }
-    event.preventDefault();
-    
-  });
+    $("#details").submit(function (event) {
+        var first_1 = $("input:first").val();
+        var second_2 = $("input#mail").val();
+        if (first_1 && second_2 != "") {
+            $(".message").text("Thank you " + first_1 + " for reaching out to us." + " " + "Your message has been received.");
+            $(".message").removeClass("error");
+            $(".message").addClass("success");
+        } else {
+            $(".message").text("Error!!! Please enter all the details correctly");
+            $(".message").addClass("error");
+        }
+        event.preventDefault();
+
+    });
 
 });
