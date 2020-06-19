@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#design").click(function () {
-        $("#design-text").slideToggle("slow");
+        $("#design-text").slideToggle("1200");
     });
 });
 
@@ -15,6 +15,11 @@ $(document).ready(function () {
         $("#product-text").slideToggle("slow");
     });
 });
+
+$('.main').click(function () {
+    $(this).children('.hide').slideToggle(1200);
+    $(this).children('.show').toggle(1500);
+  });
 
 
 $(document).ready(function () {
@@ -199,6 +204,7 @@ $("#details").submit(function(event){
       $(".message").addClass("error");
     }
     event.preventDefault();
+    
   });
 
 });
