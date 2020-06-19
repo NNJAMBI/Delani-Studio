@@ -25,7 +25,7 @@ Bootsrap
 JQuery
 Javascript
 Support and contact details
-contact me @ nkaranja7@gmail.com
+contact me @nkaranja7@gmail.com
 
 License
 The project is under MIT license Copyright © 2020. All rights reserved
