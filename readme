@@ -22,6 +22,7 @@ Enter your name	['Nancy']	name = 'Nancy'
 Enter Email && Message	['Email','Message']	Email && Message
 Submit	Email && Message	TThank you " + first_1 + " for reaching out to us." + " " + "Your message has been received."
 Error message for invalid details
+<<<<<<< HEAD
 
 
 
@@ -32,10 +33,20 @@ Error message for invalid details
 * JQuery
 * Javascript
 
-
-
 **Support and contact details**
 contact me @nkaranja7@gmail.com
 
 **License**
+=======
+Technologies Used
+HTML
+CSS
+Bootsrap
+JQuery
+Javascript
+Support and contact details
+contact me @nkaranja7@gmail.com
+
+License
+>>>>>>> d5540c45b6a0f19a92757ab2528c2a13110b824c
 The project is under MIT license Copyright © 2020. All rights reserved
