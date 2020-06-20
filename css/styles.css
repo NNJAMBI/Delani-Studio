@@ -217,6 +217,7 @@ form input[type=reset] {
     padding: 0px;
     outline: thick;
 }
+
 form input[type=reset]:hover {
     border-radius: 30px;
     background: rgb(119, 0, 255);
