@@ -6,11 +6,11 @@ Delani Studio - AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIROMENT :)
 All aspects of our software development process are intergrated, interactive  and agile.Our approach unifies design, development and product management to create exceptional products.
 We start each project by understanding your business goals, the user's needs and the product requirements. Then we help transalte them into effective and elegant solutions.
 
-Link to the Live site 
+Link to the Live site https://nnjambi.github.io/Delani-Studio/
 
 
 # Setup Instructions and Installation 
-Click on https:// to view the page. 
+Click on https://nnjambi.github.io/Delani-Studio/ to view the page. 
 Clone this repository to a location in your file system Open terminal command line then navigate to the root folder of the application. 
 cd Delani Studio Open index.html on your Browser.
 
