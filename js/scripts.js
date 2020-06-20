@@ -1,19 +1,23 @@
 $(document).ready(function () {
+    $("#design-text").hide();
     $("#design").click(function () {
         $("#design-text").slideToggle("slow");
+        $("#design-img").slideToggle("slow");
     });
-    $("#design-text").click(function () {
-        $("#design").slideToggle("slow");
-    });
-
+    
+    $("#development-text").hide();
     $("#development").click(function () {
         $("#development-text").slideToggle("slow");
+        $("#development-img").slideToggle("slow");
     });
 
+    $("#product-text").hide();
     $("#product").click(function () {
         $("#product-text").slideToggle("slow");
+        $("#product-img").slideToggle("slow");
     });
 
+    // Portfolio section
     $(".coolStuffs").each(function () {
         $(this).find("p").hide()
         $(this).animate({ opacity: 1 });
@@ -30,18 +34,16 @@ $(document).ready(function () {
             $(this).find("p").fadeOut();
         });
     });
-    $("#details").submit(function (event) {
-        var first_1 = $("input:first").val();
-        var second_2 = $("input#mail").val();
+    $(".details").submit(function (event) {
+        var first_1 = $("#mce-FNAME").val();
+        var second_2 = $("#mce-EMAIL").val();
         if (first_1 && second_2 != "") {
-            $(".message").text("Thank you " + first_1 + " for reaching out to us." + " " + "Your message has been received.");
-            $(".message").removeClass("error");
-            $(".message").addClass("success");
+            $("mc-embedded-subscribe-form").submit();
+            alert("Thank you " + first_1 + " for reaching out to us." + " " + "Your message has been received.");
+            $("mc-embedded-subscribe-form").reset();
         } else {
-            $(".message").text("Error!!! Please enter all the details correctly");
-            $(".message").addClass("error");
+            alert("Error!!! Please enter all the details correctly" + first_1 + second_2);
         }
         event.preventDefault();
-
     });
 });

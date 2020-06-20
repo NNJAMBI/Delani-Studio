@@ -210,6 +210,19 @@ form input[type=submit]:hover {
     outline: none;
 }
 
+form input[type=reset] {
+    background: rgba(95, 81, 177, 0.699);
+    font-weight: 200;
+    font-size: 1.0em;
+    padding: 0px;
+    outline: thick;
+}
+form input[type=reset]:hover {
+    border-radius: 30px;
+    background: rgb(119, 0, 255);
+    outline: none;
+}
+
 /* @media queries */
 
 @media only screen and (max-width: 600px) {
