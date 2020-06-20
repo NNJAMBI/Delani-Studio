@@ -1,9 +1,11 @@
 $(document).ready(function () {
     $("#design").click(function () {
-        $("#design-text").slideToggle("1200");
+        $("#design-text").slideToggle("slow");
+    });
+    $("#design-text").click(function () {
+        $("#design").slideToggle("slow");
     });
 });
-
 
 $(document).ready(function () {
     $("#development").click(function () {
